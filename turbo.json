@@ -3,17 +3,68 @@
   "ui": "tui",
   "tasks": {
     "build": {
-      "dependsOn": ["^build"],
-      "inputs": ["$TURBO_DEFAULT$", ".env*"],
-      "outputs": [".next/**", "!.next/cache/**", "!.next/dev/**"]
+      "dependsOn": [
+        "^build"
+      ],
+      "inputs": [
+        "$TURBO_DEFAULT$",
+        ".env*"
+      ],
+      "outputs": [
+        ".next/**",
+        "!.next/cache/**",
+        "!.next/dev/**"
+      ]
     },
     "lint": {
-      "dependsOn": ["^lint"]
+      "dependsOn": [
+        "^lint"
+      ]
     },
     "check-types": {
-      "dependsOn": ["^check-types"]
+      "dependsOn": [
+        "^check-types"
+      ]
     },
     "dev": {
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": false,
+      "persistent": true,
+      "interactive": true
+    },
+    "atlas:config": {
+      "outputs": [
+        ".atlas/**"
+      ]
+    },
+    "atlas:publish": {
+      "cache": false,
+      "dependsOn": [
+        "build"
+      ],
+      "env": [
+        "ATLAS_*",
+        "AWS_*",
+        "CI_*",
+        "GITHUB_*",
+        "BITBUCKET_*",
+        "VERCEL_*"
+      ]
+    },
+    "atlas:bootstrap": {
+      "dependsOn": [
+        "atlas:config"
+      ],
+      "env": [
+        "ATLAS_REGISTRY_URL"
+      ],
+      "outputs": [
+        "dist/bootstrap/**"
+      ]
+    },
+    "framework:dev": {
       "cache": false,
       "persistent": true
     }

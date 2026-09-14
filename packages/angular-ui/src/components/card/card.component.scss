@@ -1,0 +1,14 @@
+@use "@angular/material" as mat;
+
+.ui-card {
+  color-scheme: light;
+  font-family: system-ui, sans-serif;
+
+  @include mat.theme(
+    (
+      color: mat.$azure-palette,
+      typography: "system-ui, sans-serif",
+      density: 0,
+    )
+  );
+}

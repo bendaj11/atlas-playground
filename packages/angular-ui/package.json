@@ -1,21 +1,33 @@
 {
-  "name": "@example/angular-ui",
-  "version": "0.0.1",
-  "main": "./dist/fesm2022/example-angular-ui.mjs",
+  "name": "@atlas/angular-ui",
+  "version": "0.0.5",
+  "main": "./dist/fesm2022/atlas-angular-ui.mjs",
+  "module": "./dist/fesm2022/atlas-angular-ui.mjs",
   "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "restricted"
+  },
   "scripts": {
     "build": "ng-packagr -p ng-package.json",
-    "dev": "ng-packagr -p ng-package.json --watch"
+    "dev": "ng-packagr -p ng-package.json --watch",
+    "prepack": "pnpm run build"
   },
   "peerDependencies": {
-    "@angular/common": "^20.3.27",
-    "@angular/core": "^20.3.27"
+    "@angular/core": "^20.3.0",
+    "@angular/material": "^20.2.14"
   },
   "dependencies": {
-    "tslib": "^2.3.0"
+    "tslib": "^2.8.0"
   },
   "devDependencies": {
-    "ng-packagr": "^20.3.2"
+    "@angular/compiler-cli": "20.3.27",
+    "@angular/forms": "20.3.27",
+    "@angular/material": "^20.2.14",
+    "ng-packagr": "^20.3.2",
+    "typescript": ">=5.8.0 <6.0.0"
   },
   "sideEffects": false
 }

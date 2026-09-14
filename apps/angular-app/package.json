@@ -1,0 +1,44 @@
+{
+  "name": "angular-app",
+  "version": "0.1.0",
+  "private": true,
+  "atlas": {
+    "previews": [
+      "https://angualr-host-0-1-1.onrender.com/angular-app"
+    ]
+  },
+  "scripts": {
+    "dev": "atlas dev angular-app",
+    "framework:dev": "ng serve angular-app",
+    "atlas:config": "atlas compile-config angular-app",
+    "build": "ng build",
+    "atlas:publish": "atlas publish angular-app"
+  },
+  "dependencies": {
+    "@angular-architects/native-federation-v4": "^20.0.0",
+    "@angular/animations": "^20.3.0",
+    "@angular/common": "^20.3.0",
+    "@angular/compiler": "^20.3.0",
+    "@angular/core": "^20.3.0",
+    "@angular/platform-browser": "^20.3.0",
+    "@atlas/schema": "^0.4.26",
+    "@atlas/sdk": "^0.4.26",
+    "@atlas/angular-ui": "workspace:^",
+    "@atlas/shared-types": "workspace:^",
+    "@softarc/native-federation": "^4.3.2",
+    "es-module-shims": "^2.3.0",
+    "rxjs": "^7.8.0",
+    "tslib": "^2.8.0",
+    "zone.js": "^0.15.1"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "^20.3.0",
+    "@angular/cli": "^20.3.0",
+    "@angular/compiler-cli": "^20.3.0",
+    "@atlas/cli": "^0.4.26",
+    "@tailwindcss/postcss": "^4.3.3",
+    "postcss": "^8.5.26",
+    "tailwindcss": "^4.3.3",
+    "typescript": ">=5.8.0 <6.0.0"
+  }
+}

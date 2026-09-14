@@ -10,7 +10,7 @@ import { CustomHostSdk } from "@atlas/shared-types";
   template: `
     <ng-container>
       <ui-card
-        title="Angular UI Card"
+        title="Angular UI !TEST!"
         subtitle="Material card with Tailwind layout"
       />
 

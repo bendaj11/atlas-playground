@@ -9,7 +9,7 @@
     "check-types": "turbo run check-types"
   },
   "devDependencies": {
-    "@atlas/cli": "^0.4.26",
+    "@atlas/cli": "^0.5.1",
     "prettier": "^3.7.4",
     "turbo": "^2.10.7",
     "typescript": "5.9.2"

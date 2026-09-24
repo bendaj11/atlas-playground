@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "projects": {
+    "angular-app": {
+      "projectType": "application",
+      "root": "",
+      "sourceRoot": "src",
+      "architect": {
+        "build": {
+          "builder": "@angular-architects/native-federation-v4:build",
+          "options": {
+            "target": "angular-app:esbuild:production"
+          },
+          "configurations": {
+            "development": {
+              "target": "angular-app:esbuild:development",
+              "dev": true
+            }
+          }
+        },
+        "serve": {
+          "builder": "@angular-architects/native-federation-v4:build",
+          "options": {
+            "target": "angular-app:serve-original:development",
+            "dev": true,
+            "port": 4202,
+            "buildNotifications": {
+              "enable": true,
+              "endpoint": "/@angular-architects/native-federation:build-notifications"
+            }
+          }
+        },
+        "esbuild": {
+          "builder": "@angular-devkit/build-angular:application",
+          "options": {
+            "outputPath": "dist/angular-app",
+            "index": "src/index.html",
+            "browser": "src/main.ts",
+            "preserveSymlinks": false,
+            "polyfills": ["es-module-shims"],
+            "tsConfig": "tsconfig.app.json",
+            "assets": [
+              {
+                "glob": "**/*",
+                "input": "public"
+              }
+            ],
+            "styles": [
+              "node_modules/@atlas/angular-ui/dist/styles/colors.less",
+              "node_modules/@atlas/angular-ui/dist/styles/typography.less",
+              "src/tailwind.css",
+              "src/styles.less"
+            ]
+          },
+          "configurations": {
+            "production": {
+              "outputHashing": "all"
+            },
+            "development": {
+              "optimization": false,
+              "sourceMap": true
+            }
+          }
+        },
+        "serve-original": {
+          "builder": "@angular-devkit/build-angular:dev-server",
+          "options": {
+            "port": 4202
+          },
+          "configurations": {
+            "production": {
+              "buildTarget": "angular-app:esbuild:production"
+            },
+            "development": {
+              "buildTarget": "angular-app:esbuild:development"
+            }
+          },
+          "defaultConfiguration": "development"
+        }
+      }
+    }
+  }
+}

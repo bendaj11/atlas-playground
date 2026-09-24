@@ -1,0 +1,19 @@
+/*
+ * Tailwind v4 cannot be processed by Less, so it lives in a plain CSS file.
+ * Ionic styles go into a cascade layer below Tailwind utilities so utility
+ * classes win over Ionic's global normalize/typography rules.
+ */
+@layer theme, base, ionic, components, utilities;
+
+@import "tailwindcss";
+
+@import "@ionic/angular/css/core.css" layer(ionic);
+@import "@ionic/angular/css/normalize.css" layer(ionic);
+@import "@ionic/angular/css/structure.css" layer(ionic);
+@import "@ionic/angular/css/typography.css" layer(ionic);
+@import "@ionic/angular/css/padding.css" layer(ionic);
+@import "@ionic/angular/css/float-elements.css" layer(ionic);
+@import "@ionic/angular/css/text-alignment.css" layer(ionic);
+@import "@ionic/angular/css/text-transformation.css" layer(ionic);
+@import "@ionic/angular/css/flex-utils.css" layer(ionic);
+@import "@ionic/angular/css/display.css" layer(ionic);

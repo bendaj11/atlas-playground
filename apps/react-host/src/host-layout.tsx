@@ -5,6 +5,7 @@ import {
   AtlasRouteOutlet,
   AtlasSlot,
 } from "@atlas/runtime/react";
+import { WidgetModal } from "./widget-modal";
 
 export function HostLayout() {
   return (
@@ -16,6 +17,7 @@ export function HostLayout() {
       </header>
       <AtlasNavigation aria-label="Application" />
       <AtlasRouteOutlet />
+      <WidgetModal />
     </AtlasHostLayout>
   );
 }

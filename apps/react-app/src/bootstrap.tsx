@@ -3,8 +3,6 @@ import { createRoot } from "react-dom/client";
 import { setupIonicReact } from "@ionic/react";
 import { defineApp } from "@atlas/sdk/react";
 import { App } from "./App";
-import "./tailwind.css";
-import "./index.css";
 
 setupIonicReact();
 

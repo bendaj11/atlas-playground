@@ -37,7 +37,9 @@
             "index": "src/index.html",
             "browser": "src/main.ts",
             "preserveSymlinks": false,
-            "polyfills": ["es-module-shims"],
+            "polyfills": [
+              "es-module-shims"
+            ],
             "tsConfig": "tsconfig.app.json",
             "assets": [
               {

@@ -3,7 +3,9 @@ import {
   StrictMode,
   useContext,
   useMemo,
+  useRef,
   useState,
+  type RefObject,
   type ReactNode,
 } from "react";
 import type { HostSdkOptions } from "@atlas/runtime/react";
@@ -21,6 +23,7 @@ export interface WidgetModalRequest {
 interface WidgetModalControls {
   readonly open: CustomHostSdk["openModal"];
   readonly settle: (data: unknown) => void;
+  readonly modalRef: RefObject<HTMLIonModalElement | null>;
 }
 
 // Controls stay stable so the SDK options hook never re-renders on modal state.
@@ -47,6 +50,7 @@ export function useWidgetModalRequest(): WidgetModalRequest | undefined {
 
 function WidgetModalProvider({ children }: { children?: ReactNode }) {
   const [request, setRequest] = useState<WidgetModalRequest>();
+  const modalRef = useRef<HTMLIonModalElement>(null);
 
   const controls = useMemo<WidgetModalControls>(
     () => ({
@@ -67,6 +71,7 @@ function WidgetModalProvider({ children }: { children?: ReactNode }) {
           return undefined;
         });
       },
+      modalRef,
     }),
     [],
   );

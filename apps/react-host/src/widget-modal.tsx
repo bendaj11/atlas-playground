@@ -1,4 +1,4 @@
-import { useMemo, useRef, type ComponentProps } from "react";
+import { useMemo, type ComponentProps, type RefObject } from "react";
 import { IonModal } from "@ionic/react";
 import { useAtlasSdk } from "@atlas/sdk/react";
 import {
@@ -14,52 +14,44 @@ type IonModalProps = ComponentProps<typeof IonModal>;
 
 function WidgetModalContent({
   request,
-  onClose,
+  modalRef,
 }: {
   request: WidgetModalRequest;
-  onClose: () => void;
+  modalRef: RefObject<HTMLIonModalElement | null>;
 }) {
   const sdk = useAtlasSdk();
   const Widget = useMemo(
     () => sdk.getWidget<Record<string, unknown>>(request.widgetId),
     [sdk, request.widgetId],
   );
-
-  return (
-    <>
-      <button
-        className="atlas-widget-modal__close"
-        type="button"
-        onClick={onClose}
-      >
-        Close
-      </button>
-      <Widget {...(request.options.inputs ?? {})} />
-    </>
+  // Widgets render their own close control and call the `close` input.
+  // Dismiss through Ionic so the exit animation runs; onDidDismiss settles.
+  const inputs = useMemo(
+    () => ({
+      ...request.options.inputs,
+      close: (data?: unknown) => void modalRef.current?.dismiss(data),
+    }),
+    [request.options.inputs, modalRef],
   );
+
+  return <Widget {...inputs} />;
 }
 
 /** Renders the widget requested through `sdk.openModal` in an Ionic sheet modal. */
 export function WidgetModal() {
   const request = useWidgetModalRequest();
-  const { settle } = useWidgetModalControls();
-  const modal = useRef<HTMLIonModalElement>(null);
+  const { settle, modalRef } = useWidgetModalControls();
 
   return (
     <IonModal
       {...(request?.options.modalOptions as Partial<IonModalProps>)}
-      ref={modal}
+      ref={modalRef}
       isOpen={request !== undefined}
       breakpoints={MODAL_BREAKPOINTS}
       initialBreakpoint={INITIAL_MODAL_BREAKPOINT}
       onDidDismiss={(event) => settle(event.detail.data)}
     >
-      {request && (
-        <WidgetModalContent
-          request={request}
-          onClose={() => void modal.current?.dismiss()}
-        />
-      )}
+      {request && <WidgetModalContent request={request} modalRef={modalRef} />}
     </IonModal>
   );
 }

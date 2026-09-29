@@ -6,5 +6,5 @@ export default await createAngularV4FederationConfig({
   expose: "app",
   nativeFederationPackage: "@angular-architects/native-federation-v4",
   // Add skip, exposes, shared, or other Native Federation options here.
-  skip: [],
+  skip: ["ionicons", "ionicons/icons"],
 });

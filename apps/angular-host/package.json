@@ -3,7 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "atlas": {
-    "previews": []
+    "previews": [
+      "https://angualr-host-0-1-1.onrender.com/angular-app"
+    ]
   },
   "scripts": {
     "dev": "atlas dev angular-host",
@@ -22,9 +24,9 @@
     "@angular/forms": "^20.3.0",
     "@angular/platform-browser": "^20.3.0",
     "@angular/router": "^20.3.0",
-    "@atlas/runtime": "^0.5.1",
-    "@atlas/schema": "^0.5.1",
-    "@atlas/sdk": "^0.5.1",
+    "@atlas/runtime": "^0.6.0",
+    "@atlas/schema": "^0.6.0",
+    "@atlas/sdk": "^0.6.0",
     "@atlas/shared-types": "workspace:^",
     "@ionic/angular": "^8.8.19",
     "@softarc/native-federation": "^4.3.2",
@@ -36,7 +38,7 @@
     "@angular-devkit/build-angular": "^20.3.0",
     "@angular/cli": "^20.3.0",
     "@angular/compiler-cli": "^20.3.0",
-    "@atlas/cli": "^0.5.1",
+    "@atlas/cli": "^0.6.0",
     "@tailwindcss/postcss": "^4.3.3",
     "@types/node": "^22.0.0",
     "postcss": "^8.5.28",

@@ -9,8 +9,8 @@ importers:
   .:
     devDependencies:
       '@atlas/cli':
-        specifier: ^0.5.1
-        version: 0.5.1(89069322d781a68a74a3af917a6bd0f5)
+        specifier: ^0.6.0
+        version: 0.6.0(89069322d781a68a74a3af917a6bd0f5)
       prettier:
         specifier: ^3.7.4
         version: 3.9.6
@@ -51,11 +51,11 @@ importers:
         specifier: workspace:^
         version: link:../../packages/angular-ui
       '@atlas/schema':
-        specifier: ^0.5.1
-        version: 0.5.1
+        specifier: ^0.6.0
+        version: 0.6.0
       '@atlas/sdk':
-        specifier: ^0.5.1
-        version: 0.5.1(@angular/common@20.3.27(@angular/core@20.3.27(@angular/compiler@20.3.27)(rxjs@7.8.2)(zone.js@0.15.1))(rxjs@7.8.2))(@angular/core@20.3.27(@angular/compiler@20.3.27)(rxjs@7.8.2)(zone.js@0.15.1))(@angular/platform-browser@20.3.27(@angular/animations@20.3.27(@angular/core@20.3.27(@angular/compiler@20.3.27)(rxjs@7.8.2)(zone.js@0.15.1)))(@angular/common@20.3.27(@angular/core@20.3.27(@angular/compiler@20.3.27)(rxjs@7.8.2)(zone.js@0.15.1))(rxjs@7.8.2))(@angular/core@20.3.27(@angular/compiler@20.3.27)(rxjs@7.8.2)(zone.js@0.15.1)))(react@19.2.8)(typescript@5.9.2)(vite@7.3.6(@types/node@22.20.1)(jiti@2.7.0)(less@4.9.0)(lightningcss@1.32.0)(sass@1.90.0)(terser@5.43.1))
+        specifier: ^0.6.0
+        version: 0.6.0(@angular/common@20.3.27(@angular/core@20.3.27(@angular/compiler@20.3.27)(rxjs@7.8.2)(zone.js@0.15.1))(rxjs@7.8.2))(@angular/core@20.3.27(@angular/compiler@20.3.27)(rxjs@7.8.2)(zone.js@0.15.1))(@angular/platform-browser@20.3.27(@angular/animations@20.3.27(@angular/core@20.3.27(@angular/compiler@20.3.27)(rxjs@7.8.2)(zone.js@0.15.1)))(@angular/common@20.3.27(@angular/core@20.3.27(@angular/compiler@20.3.27)(rxjs@7.8.2)(zone.js@0.15.1))(rxjs@7.8.2))(@angular/core@20.3.27(@angular/compiler@20.3.27)(rxjs@7.8.2)(zone.js@0.15.1)))(react@19.2.8)(typescript@5.9.2)(vite@7.3.6(@types/node@22.20.1)(jiti@2.7.0)(less@4.9.0)(lightningcss@1.32.0)(sass@1.90.0)(terser@5.43.1))
       '@atlas/shared-types':
         specifier: workspace:^
         version: link:../../packages/shared-types
@@ -68,6 +68,9 @@ importers:
       es-module-shims:
         specifier: ^2.3.0
         version: 2.8.4
+      ionicons:
+        specifier: ^8.1.0
+        version: 8.1.0
       rxjs:
         specifier: ^7.8.0
         version: 7.8.2
@@ -88,8 +91,8 @@ importers:
         specifier: ^20.3.0
         version: 20.3.27(@angular/compiler@20.3.27)(typescript@5.9.2)
       '@atlas/cli':
-        specifier: ^0.5.1
-        version: 0.5.1(8680c8d9665053a0ef5cad008cff36e0)
+        specifier: ^0.6.0
+        version: 0.6.0(8680c8d9665053a0ef5cad008cff36e0)
       '@tailwindcss/postcss':
         specifier: ^4.3.3
         version: 4.3.3
@@ -130,14 +133,14 @@ importers:
         specifier: ^20.3.0
         version: 20.3.29(@angular/common@20.3.27(@angular/core@20.3.27(@angular/compiler@20.3.27)(rxjs@7.8.2)(zone.js@0.15.1))(rxjs@7.8.2))(@angular/core@20.3.27(@angular/compiler@20.3.27)(rxjs@7.8.2)(zone.js@0.15.1))(@angular/platform-browser@20.3.27(@angular/animations@20.3.27(@angular/core@20.3.27(@angular/compiler@20.3.27)(rxjs@7.8.2)(zone.js@0.15.1)))(@angular/common@20.3.27(@angular/core@20.3.27(@angular/compiler@20.3.27)(rxjs@7.8.2)(zone.js@0.15.1))(rxjs@7.8.2))(@angular/core@20.3.27(@angular/compiler@20.3.27)(rxjs@7.8.2)(zone.js@0.15.1)))(rxjs@7.8.2)
       '@atlas/runtime':
-        specifier: ^0.5.1
-        version: 0.5.1(62c41360e41306c25169000f2e71e602)
+        specifier: ^0.6.0
+        version: 0.6.0(62c41360e41306c25169000f2e71e602)
       '@atlas/schema':
-        specifier: ^0.5.1
-        version: 0.5.1
+        specifier: ^0.6.0
+        version: 0.6.0
       '@atlas/sdk':
-        specifier: ^0.5.1
-        version: 0.5.1(@angular/common@20.3.27(@angular/core@20.3.27(@angular/compiler@20.3.27)(rxjs@7.8.2)(zone.js@0.15.1))(rxjs@7.8.2))(@angular/core@20.3.27(@angular/compiler@20.3.27)(rxjs@7.8.2)(zone.js@0.15.1))(@angular/platform-browser@20.3.27(@angular/animations@20.3.27(@angular/core@20.3.27(@angular/compiler@20.3.27)(rxjs@7.8.2)(zone.js@0.15.1)))(@angular/common@20.3.27(@angular/core@20.3.27(@angular/compiler@20.3.27)(rxjs@7.8.2)(zone.js@0.15.1))(rxjs@7.8.2))(@angular/core@20.3.27(@angular/compiler@20.3.27)(rxjs@7.8.2)(zone.js@0.15.1)))(react@19.2.8)(typescript@5.9.2)(vite@7.3.6(@types/node@22.20.1)(jiti@2.7.0)(less@4.9.0)(lightningcss@1.32.0)(sass@1.102.0)(terser@5.43.1))
+        specifier: ^0.6.0
+        version: 0.6.0(@angular/common@20.3.27(@angular/core@20.3.27(@angular/compiler@20.3.27)(rxjs@7.8.2)(zone.js@0.15.1))(rxjs@7.8.2))(@angular/core@20.3.27(@angular/compiler@20.3.27)(rxjs@7.8.2)(zone.js@0.15.1))(@angular/platform-browser@20.3.27(@angular/animations@20.3.27(@angular/core@20.3.27(@angular/compiler@20.3.27)(rxjs@7.8.2)(zone.js@0.15.1)))(@angular/common@20.3.27(@angular/core@20.3.27(@angular/compiler@20.3.27)(rxjs@7.8.2)(zone.js@0.15.1))(rxjs@7.8.2))(@angular/core@20.3.27(@angular/compiler@20.3.27)(rxjs@7.8.2)(zone.js@0.15.1)))(react@19.2.8)(typescript@5.9.2)(vite@7.3.6(@types/node@22.20.1)(jiti@2.7.0)(less@4.9.0)(lightningcss@1.32.0)(sass@1.102.0)(terser@5.43.1))
       '@atlas/shared-types':
         specifier: workspace:^
         version: link:../../packages/shared-types
@@ -167,8 +170,8 @@ importers:
         specifier: ^20.3.0
         version: 20.3.27(@angular/compiler@20.3.27)(typescript@5.9.2)
       '@atlas/cli':
-        specifier: ^0.5.1
-        version: 0.5.1(89069322d781a68a74a3af917a6bd0f5)
+        specifier: ^0.6.0
+        version: 0.6.0(89069322d781a68a74a3af917a6bd0f5)
       '@tailwindcss/postcss':
         specifier: ^4.3.3
         version: 4.3.3
@@ -188,11 +191,11 @@ importers:
   apps/react-app:
     dependencies:
       '@atlas/schema':
-        specifier: ^0.5.1
-        version: 0.5.1
+        specifier: ^0.6.0
+        version: 0.6.0
       '@atlas/sdk':
-        specifier: ^0.5.1
-        version: 0.5.1(@angular/common@20.3.27(@angular/core@20.3.27(@angular/compiler@20.3.27)(rxjs@7.8.2)(zone.js@0.15.1))(rxjs@7.8.2))(@angular/core@20.3.27(@angular/compiler@20.3.27)(rxjs@7.8.2)(zone.js@0.15.1))(@angular/platform-browser@20.3.27(@angular/animations@20.3.27(@angular/core@20.3.27(@angular/compiler@20.3.27)(rxjs@7.8.2)(zone.js@0.15.1)))(@angular/common@20.3.27(@angular/core@20.3.27(@angular/compiler@20.3.27)(rxjs@7.8.2)(zone.js@0.15.1))(rxjs@7.8.2))(@angular/core@20.3.27(@angular/compiler@20.3.27)(rxjs@7.8.2)(zone.js@0.15.1)))(react@19.2.8)(typescript@5.9.2)(vite@7.3.6(@types/node@22.20.1)(jiti@2.7.0)(less@4.9.0)(lightningcss@1.32.0)(sass@1.102.0)(terser@5.43.1))
+        specifier: ^0.6.0
+        version: 0.6.0(@angular/common@20.3.27(@angular/core@20.3.27(@angular/compiler@20.3.27)(rxjs@7.8.2)(zone.js@0.15.1))(rxjs@7.8.2))(@angular/core@20.3.27(@angular/compiler@20.3.27)(rxjs@7.8.2)(zone.js@0.15.1))(@angular/platform-browser@20.3.27(@angular/animations@20.3.27(@angular/core@20.3.27(@angular/compiler@20.3.27)(rxjs@7.8.2)(zone.js@0.15.1)))(@angular/common@20.3.27(@angular/core@20.3.27(@angular/compiler@20.3.27)(rxjs@7.8.2)(zone.js@0.15.1))(rxjs@7.8.2))(@angular/core@20.3.27(@angular/compiler@20.3.27)(rxjs@7.8.2)(zone.js@0.15.1)))(react@19.2.8)(typescript@5.9.2)(vite@7.3.6(@types/node@22.20.1)(jiti@2.7.0)(less@4.9.0)(lightningcss@1.32.0)(sass@1.102.0)(terser@5.43.1))
       '@atlas/shared-types':
         specifier: workspace:^
         version: link:../../packages/shared-types
@@ -202,6 +205,9 @@ importers:
       es-module-shims:
         specifier: ^2.3.0
         version: 2.8.4
+      ionicons:
+        specifier: ^8.1.0
+        version: 8.1.0
       react:
         specifier: 19.2.8
         version: 19.2.8
@@ -210,8 +216,8 @@ importers:
         version: 19.2.8(react@19.2.8)
     devDependencies:
       '@atlas/cli':
-        specifier: ^0.5.1
-        version: 0.5.1(89069322d781a68a74a3af917a6bd0f5)
+        specifier: ^0.6.0
+        version: 0.6.0(89069322d781a68a74a3af917a6bd0f5)
       '@tailwindcss/vite':
         specifier: ^4.3.3
         version: 4.3.3(vite@7.3.6(@types/node@22.20.1)(jiti@2.7.0)(less@4.9.0)(lightningcss@1.32.0)(sass@1.102.0)(terser@5.43.1))
@@ -240,14 +246,14 @@ importers:
   apps/react-host:
     dependencies:
       '@atlas/runtime':
-        specifier: ^0.5.1
-        version: 0.5.1(62c41360e41306c25169000f2e71e602)
+        specifier: ^0.6.0
+        version: 0.6.0(62c41360e41306c25169000f2e71e602)
       '@atlas/schema':
-        specifier: ^0.5.1
-        version: 0.5.1
+        specifier: ^0.6.0
+        version: 0.6.0
       '@atlas/sdk':
-        specifier: ^0.5.1
-        version: 0.5.1(@angular/common@20.3.27(@angular/core@20.3.27(@angular/compiler@20.3.27)(rxjs@7.8.2)(zone.js@0.15.1))(rxjs@7.8.2))(@angular/core@20.3.27(@angular/compiler@20.3.27)(rxjs@7.8.2)(zone.js@0.15.1))(@angular/platform-browser@20.3.27(@angular/animations@20.3.27(@angular/core@20.3.27(@angular/compiler@20.3.27)(rxjs@7.8.2)(zone.js@0.15.1)))(@angular/common@20.3.27(@angular/core@20.3.27(@angular/compiler@20.3.27)(rxjs@7.8.2)(zone.js@0.15.1))(rxjs@7.8.2))(@angular/core@20.3.27(@angular/compiler@20.3.27)(rxjs@7.8.2)(zone.js@0.15.1)))(react@19.2.8)(typescript@5.9.2)(vite@7.3.6(@types/node@22.20.1)(jiti@2.7.0)(less@4.9.0)(lightningcss@1.32.0)(sass@1.102.0)(terser@5.43.1))
+        specifier: ^0.6.0
+        version: 0.6.0(@angular/common@20.3.27(@angular/core@20.3.27(@angular/compiler@20.3.27)(rxjs@7.8.2)(zone.js@0.15.1))(rxjs@7.8.2))(@angular/core@20.3.27(@angular/compiler@20.3.27)(rxjs@7.8.2)(zone.js@0.15.1))(@angular/platform-browser@20.3.27(@angular/animations@20.3.27(@angular/core@20.3.27(@angular/compiler@20.3.27)(rxjs@7.8.2)(zone.js@0.15.1)))(@angular/common@20.3.27(@angular/core@20.3.27(@angular/compiler@20.3.27)(rxjs@7.8.2)(zone.js@0.15.1))(rxjs@7.8.2))(@angular/core@20.3.27(@angular/compiler@20.3.27)(rxjs@7.8.2)(zone.js@0.15.1)))(react@19.2.8)(typescript@5.9.2)(vite@7.3.6(@types/node@22.20.1)(jiti@2.7.0)(less@4.9.0)(lightningcss@1.32.0)(sass@1.102.0)(terser@5.43.1))
       '@atlas/shared-types':
         specifier: workspace:^
         version: link:../../packages/shared-types
@@ -268,8 +274,8 @@ importers:
         version: 7.18.2(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
     devDependencies:
       '@atlas/cli':
-        specifier: ^0.5.1
-        version: 0.5.1(89069322d781a68a74a3af917a6bd0f5)
+        specifier: ^0.6.0
+        version: 0.6.0(89069322d781a68a74a3af917a6bd0f5)
       '@tailwindcss/vite':
         specifier: ^4.3.3
         version: 4.3.3(vite@7.3.6(@types/node@22.20.1)(jiti@2.7.0)(less@4.9.0)(lightningcss@1.32.0)(sass@1.102.0)(terser@5.43.1))
@@ -615,21 +621,21 @@ packages:
       '@angular/platform-browser': 20.3.29
       rxjs: ^6.5.3 || ^7.4.0
 
-  '@atlas/bootstrap@0.5.1':
-    resolution: {integrity: sha512-Nio70qHFjui8Sjujoh+b4SnTFaEGkhQuj3DjCVuTo8oxSwMKL+E7TZqeSuBnZEsFMj1hnhBEHAsNgDCChu+DMA==}
+  '@atlas/bootstrap@0.6.0':
+    resolution: {integrity: sha512-r9zqbzIX7Ef9lxHKMP26SOsuXbDhMeF50jdo5AZVzzIMoEijnDeJ6j09lcX7MPyX67fVVsnoZuKMnLOJA0wAuA==}
     engines: {node: ^22.12.0 || ^24.0.0}
 
-  '@atlas/cli@0.5.1':
-    resolution: {integrity: sha512-KVeqVuyJPO+GcvRknKzvtTDelIju16k4+34rykCyrW0pZTWWI0eYmhr+Y1rP3BEYWgQfbGL+/CgvbOo8RqS9BQ==}
+  '@atlas/cli@0.6.0':
+    resolution: {integrity: sha512-EBguCJyo2inVdl8MfN7mhr0sOhl+6SM9ri32Mst9E9aYshb314EBXyLtUmldS8OHVxytyO3kqp27R1QlIoHfXw==}
     engines: {node: ^22.12.0 || ^24.0.0}
     hasBin: true
 
-  '@atlas/generators@0.5.1':
-    resolution: {integrity: sha512-pmSxwBAdPLoN3J3MxI4ysQUILz9zFXIQKN2KadQJ8XHjEOMnAyT6qlJMbHQaluMf5ZgabstnvpcJ2+zliUbxMw==}
+  '@atlas/generators@0.6.0':
+    resolution: {integrity: sha512-GfTn0aHkj+HGi2a5iLCB4SA6u45d52lAOwM6+7XZsMZMd4EvSjPVomgUbNvAFqv+PAP1UimZZAlBULcRzyaBxA==}
     engines: {node: ^22.12.0 || ^24.0.0}
 
-  '@atlas/runtime@0.5.1':
-    resolution: {integrity: sha512-pWYpfJQe1cwk2cR3qGOnYkpxRmZ7FkLz3/4RniNeix0Ph2ViwD9Pjzp7Bengfuwszn6tcmPQLHzdlEiCqhSyUA==}
+  '@atlas/runtime@0.6.0':
+    resolution: {integrity: sha512-VezZdWA1j/DN5HU92fu5OqYeBQzICme+UCiRuI79F3kw6TX8esBjM9fE9vQ6VpHs6TYmjMsOy67AAexVtYTF1g==}
     engines: {node: ^22.12.0 || ^24.0.0}
     peerDependencies:
       '@angular/common': '>=19 <23'
@@ -655,12 +661,12 @@ packages:
       react-router-dom:
         optional: true
 
-  '@atlas/schema@0.5.1':
-    resolution: {integrity: sha512-2lyCntVZ97efRLXxRvwhAWeZI8o6k6Bh36ZaSRWCRQratV9CIThrNU8vo4TlUWJLf/D5YC/hlsg/l/tpcejXZQ==}
+  '@atlas/schema@0.6.0':
+    resolution: {integrity: sha512-9U317HjRhs7f/FPa9nphWx3jhhiKcEaidHmoBwOt4+RbiaRy5BpJh7K6vhwyythF72SairyqMy2bh0j9kWLGeA==}
     engines: {node: ^22.12.0 || ^24.0.0}
 
-  '@atlas/sdk@0.5.1':
-    resolution: {integrity: sha512-5DM6z+DzmvrmJNxesRbT7Vr+PpkP9i7aMyr5VURY61G6gDdIa0x6V2EkgZ+QPueYdaZL9VeHUVkLybpjwMSlFw==}
+  '@atlas/sdk@0.6.0':
+    resolution: {integrity: sha512-KNo3C/NywahPJHjX2Q0C/F/XcuvMZ7owIGP8wl1hANaKqaXEVVs1/mJ13UGvAr/rNPTwPWcSom9Kp1lN3US02A==}
     engines: {node: ^22.12.0 || ^24.0.0}
     peerDependencies:
       '@angular/common': '>=19 <23'
@@ -6342,17 +6348,17 @@ snapshots:
       rxjs: 7.8.2
       tslib: 2.8.1
 
-  '@atlas/bootstrap@0.5.1':
+  '@atlas/bootstrap@0.6.0':
     dependencies:
-      '@atlas/schema': 0.5.1
+      '@atlas/schema': 0.6.0
       es-module-shims: 2.8.4
 
-  '@atlas/cli@0.5.1(8680c8d9665053a0ef5cad008cff36e0)':
+  '@atlas/cli@0.6.0(8680c8d9665053a0ef5cad008cff36e0)':
     dependencies:
-      '@atlas/bootstrap': 0.5.1
-      '@atlas/generators': 0.5.1
-      '@atlas/runtime': 0.5.1(8f54dbcfefcca515a0e27e08cb85b7eb)
-      '@atlas/schema': 0.5.1
+      '@atlas/bootstrap': 0.6.0
+      '@atlas/generators': 0.6.0
+      '@atlas/runtime': 0.6.0(8f54dbcfefcca515a0e27e08cb85b7eb)
+      '@atlas/schema': 0.6.0
       '@aws-sdk/client-s3': 3.1107.0
       '@inquirer/select': 4.4.2(@types/node@22.20.1)
       cross-spawn: 7.0.6
@@ -6368,12 +6374,12 @@ snapshots:
       - react-router-dom
       - vite
 
-  '@atlas/cli@0.5.1(89069322d781a68a74a3af917a6bd0f5)':
+  '@atlas/cli@0.6.0(89069322d781a68a74a3af917a6bd0f5)':
     dependencies:
-      '@atlas/bootstrap': 0.5.1
-      '@atlas/generators': 0.5.1
-      '@atlas/runtime': 0.5.1(62c41360e41306c25169000f2e71e602)
-      '@atlas/schema': 0.5.1
+      '@atlas/bootstrap': 0.6.0
+      '@atlas/generators': 0.6.0
+      '@atlas/runtime': 0.6.0(62c41360e41306c25169000f2e71e602)
+      '@atlas/schema': 0.6.0
       '@aws-sdk/client-s3': 3.1107.0
       '@inquirer/select': 4.4.2(@types/node@22.20.1)
       cross-spawn: 7.0.6
@@ -6389,15 +6395,15 @@ snapshots:
       - react-router-dom
       - vite
 
-  '@atlas/generators@0.5.1':
+  '@atlas/generators@0.6.0':
     dependencies:
-      '@atlas/bootstrap': 0.5.1
-      '@atlas/schema': 0.5.1
+      '@atlas/bootstrap': 0.6.0
+      '@atlas/schema': 0.6.0
 
-  '@atlas/runtime@0.5.1(62c41360e41306c25169000f2e71e602)':
+  '@atlas/runtime@0.6.0(62c41360e41306c25169000f2e71e602)':
     dependencies:
-      '@atlas/schema': 0.5.1
-      '@atlas/sdk': 0.5.1(@angular/common@20.3.27(@angular/core@20.3.27(@angular/compiler@20.3.27)(rxjs@7.8.2)(zone.js@0.15.1))(rxjs@7.8.2))(@angular/core@20.3.27(@angular/compiler@20.3.27)(rxjs@7.8.2)(zone.js@0.15.1))(@angular/platform-browser@20.3.27(@angular/animations@20.3.27(@angular/core@20.3.27(@angular/compiler@20.3.27)(rxjs@7.8.2)(zone.js@0.15.1)))(@angular/common@20.3.27(@angular/core@20.3.27(@angular/compiler@20.3.27)(rxjs@7.8.2)(zone.js@0.15.1))(rxjs@7.8.2))(@angular/core@20.3.27(@angular/compiler@20.3.27)(rxjs@7.8.2)(zone.js@0.15.1)))(react@19.2.8)(typescript@5.9.2)(vite@7.3.6(@types/node@22.20.1)(jiti@2.7.0)(less@4.9.0)(lightningcss@1.32.0)(sass@1.102.0)(terser@5.43.1))
+      '@atlas/schema': 0.6.0
+      '@atlas/sdk': 0.6.0(@angular/common@20.3.27(@angular/core@20.3.27(@angular/compiler@20.3.27)(rxjs@7.8.2)(zone.js@0.15.1))(rxjs@7.8.2))(@angular/core@20.3.27(@angular/compiler@20.3.27)(rxjs@7.8.2)(zone.js@0.15.1))(@angular/platform-browser@20.3.27(@angular/animations@20.3.27(@angular/core@20.3.27(@angular/compiler@20.3.27)(rxjs@7.8.2)(zone.js@0.15.1)))(@angular/common@20.3.27(@angular/core@20.3.27(@angular/compiler@20.3.27)(rxjs@7.8.2)(zone.js@0.15.1))(rxjs@7.8.2))(@angular/core@20.3.27(@angular/compiler@20.3.27)(rxjs@7.8.2)(zone.js@0.15.1)))(react@19.2.8)(typescript@5.9.2)(vite@7.3.6(@types/node@22.20.1)(jiti@2.7.0)(less@4.9.0)(lightningcss@1.32.0)(sass@1.102.0)(terser@5.43.1))
       css-tree: 3.2.1
     optionalDependencies:
       '@angular/common': 20.3.27(@angular/core@20.3.27(@angular/compiler@20.3.27)(rxjs@7.8.2)(zone.js@0.15.1))(rxjs@7.8.2)
@@ -6411,10 +6417,10 @@ snapshots:
       - typescript
       - vite
 
-  '@atlas/runtime@0.5.1(8f54dbcfefcca515a0e27e08cb85b7eb)':
+  '@atlas/runtime@0.6.0(8f54dbcfefcca515a0e27e08cb85b7eb)':
     dependencies:
-      '@atlas/schema': 0.5.1
-      '@atlas/sdk': 0.5.1(@angular/common@20.3.27(@angular/core@20.3.27(@angular/compiler@20.3.27)(rxjs@7.8.2)(zone.js@0.15.1))(rxjs@7.8.2))(@angular/core@20.3.27(@angular/compiler@20.3.27)(rxjs@7.8.2)(zone.js@0.15.1))(@angular/platform-browser@20.3.27(@angular/animations@20.3.27(@angular/core@20.3.27(@angular/compiler@20.3.27)(rxjs@7.8.2)(zone.js@0.15.1)))(@angular/common@20.3.27(@angular/core@20.3.27(@angular/compiler@20.3.27)(rxjs@7.8.2)(zone.js@0.15.1))(rxjs@7.8.2))(@angular/core@20.3.27(@angular/compiler@20.3.27)(rxjs@7.8.2)(zone.js@0.15.1)))(react@19.2.8)(typescript@5.9.2)(vite@7.3.6(@types/node@22.20.1)(jiti@2.7.0)(less@4.9.0)(lightningcss@1.32.0)(sass@1.90.0)(terser@5.43.1))
+      '@atlas/schema': 0.6.0
+      '@atlas/sdk': 0.6.0(@angular/common@20.3.27(@angular/core@20.3.27(@angular/compiler@20.3.27)(rxjs@7.8.2)(zone.js@0.15.1))(rxjs@7.8.2))(@angular/core@20.3.27(@angular/compiler@20.3.27)(rxjs@7.8.2)(zone.js@0.15.1))(@angular/platform-browser@20.3.27(@angular/animations@20.3.27(@angular/core@20.3.27(@angular/compiler@20.3.27)(rxjs@7.8.2)(zone.js@0.15.1)))(@angular/common@20.3.27(@angular/core@20.3.27(@angular/compiler@20.3.27)(rxjs@7.8.2)(zone.js@0.15.1))(rxjs@7.8.2))(@angular/core@20.3.27(@angular/compiler@20.3.27)(rxjs@7.8.2)(zone.js@0.15.1)))(react@19.2.8)(typescript@5.9.2)(vite@7.3.6(@types/node@22.20.1)(jiti@2.7.0)(less@4.9.0)(lightningcss@1.32.0)(sass@1.90.0)(terser@5.43.1))
       css-tree: 3.2.1
     optionalDependencies:
       '@angular/common': 20.3.27(@angular/core@20.3.27(@angular/compiler@20.3.27)(rxjs@7.8.2)(zone.js@0.15.1))(rxjs@7.8.2)
@@ -6428,11 +6434,11 @@ snapshots:
       - typescript
       - vite
 
-  '@atlas/schema@0.5.1': {}
+  '@atlas/schema@0.6.0': {}
 
-  '@atlas/sdk@0.5.1(@angular/common@20.3.27(@angular/core@20.3.27(@angular/compiler@20.3.27)(rxjs@7.8.2)(zone.js@0.15.1))(rxjs@7.8.2))(@angular/core@20.3.27(@angular/compiler@20.3.27)(rxjs@7.8.2)(zone.js@0.15.1))(@angular/platform-browser@20.3.27(@angular/animations@20.3.27(@angular/core@20.3.27(@angular/compiler@20.3.27)(rxjs@7.8.2)(zone.js@0.15.1)))(@angular/common@20.3.27(@angular/core@20.3.27(@angular/compiler@20.3.27)(rxjs@7.8.2)(zone.js@0.15.1))(rxjs@7.8.2))(@angular/core@20.3.27(@angular/compiler@20.3.27)(rxjs@7.8.2)(zone.js@0.15.1)))(react@19.2.8)(typescript@5.9.2)(vite@7.3.6(@types/node@22.20.1)(jiti@2.7.0)(less@4.9.0)(lightningcss@1.32.0)(sass@1.102.0)(terser@5.43.1))':
+  '@atlas/sdk@0.6.0(@angular/common@20.3.27(@angular/core@20.3.27(@angular/compiler@20.3.27)(rxjs@7.8.2)(zone.js@0.15.1))(rxjs@7.8.2))(@angular/core@20.3.27(@angular/compiler@20.3.27)(rxjs@7.8.2)(zone.js@0.15.1))(@angular/platform-browser@20.3.27(@angular/animations@20.3.27(@angular/core@20.3.27(@angular/compiler@20.3.27)(rxjs@7.8.2)(zone.js@0.15.1)))(@angular/common@20.3.27(@angular/core@20.3.27(@angular/compiler@20.3.27)(rxjs@7.8.2)(zone.js@0.15.1))(rxjs@7.8.2))(@angular/core@20.3.27(@angular/compiler@20.3.27)(rxjs@7.8.2)(zone.js@0.15.1)))(react@19.2.8)(typescript@5.9.2)(vite@7.3.6(@types/node@22.20.1)(jiti@2.7.0)(less@4.9.0)(lightningcss@1.32.0)(sass@1.102.0)(terser@5.43.1))':
     dependencies:
-      '@atlas/schema': 0.5.1
+      '@atlas/schema': 0.6.0
       '@softarc/native-federation-runtime': 3.5.5
       cjs-module-lexer: 1.4.3
     optionalDependencies:
@@ -6443,9 +6449,9 @@ snapshots:
       typescript: 5.9.2
       vite: 7.3.6(@types/node@22.20.1)(jiti@2.7.0)(less@4.9.0)(lightningcss@1.32.0)(sass@1.102.0)(terser@5.43.1)
 
-  '@atlas/sdk@0.5.1(@angular/common@20.3.27(@angular/core@20.3.27(@angular/compiler@20.3.27)(rxjs@7.8.2)(zone.js@0.15.1))(rxjs@7.8.2))(@angular/core@20.3.27(@angular/compiler@20.3.27)(rxjs@7.8.2)(zone.js@0.15.1))(@angular/platform-browser@20.3.27(@angular/animations@20.3.27(@angular/core@20.3.27(@angular/compiler@20.3.27)(rxjs@7.8.2)(zone.js@0.15.1)))(@angular/common@20.3.27(@angular/core@20.3.27(@angular/compiler@20.3.27)(rxjs@7.8.2)(zone.js@0.15.1))(rxjs@7.8.2))(@angular/core@20.3.27(@angular/compiler@20.3.27)(rxjs@7.8.2)(zone.js@0.15.1)))(react@19.2.8)(typescript@5.9.2)(vite@7.3.6(@types/node@22.20.1)(jiti@2.7.0)(less@4.9.0)(lightningcss@1.32.0)(sass@1.90.0)(terser@5.43.1))':
+  '@atlas/sdk@0.6.0(@angular/common@20.3.27(@angular/core@20.3.27(@angular/compiler@20.3.27)(rxjs@7.8.2)(zone.js@0.15.1))(rxjs@7.8.2))(@angular/core@20.3.27(@angular/compiler@20.3.27)(rxjs@7.8.2)(zone.js@0.15.1))(@angular/platform-browser@20.3.27(@angular/animations@20.3.27(@angular/core@20.3.27(@angular/compiler@20.3.27)(rxjs@7.8.2)(zone.js@0.15.1)))(@angular/common@20.3.27(@angular/core@20.3.27(@angular/compiler@20.3.27)(rxjs@7.8.2)(zone.js@0.15.1))(rxjs@7.8.2))(@angular/core@20.3.27(@angular/compiler@20.3.27)(rxjs@7.8.2)(zone.js@0.15.1)))(react@19.2.8)(typescript@5.9.2)(vite@7.3.6(@types/node@22.20.1)(jiti@2.7.0)(less@4.9.0)(lightningcss@1.32.0)(sass@1.90.0)(terser@5.43.1))':
     dependencies:
-      '@atlas/schema': 0.5.1
+      '@atlas/schema': 0.6.0
       '@softarc/native-federation-runtime': 3.5.5
       cjs-module-lexer: 1.4.3
     optionalDependencies:

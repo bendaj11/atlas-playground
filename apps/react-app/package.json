@@ -4,7 +4,10 @@
   "private": true,
   "type": "module",
   "atlas": {
-    "previews": []
+    "previews": [
+      "https://angualr-host-0-1-1.onrender.com/react-app",
+      "https://react-host-0-2-0.onrender.com/react-app"
+    ]
   },
   "scripts": {
     "dev": "atlas dev react-app",
@@ -14,16 +17,17 @@
     "atlas:publish": "atlas publish react-app"
   },
   "dependencies": {
-    "@atlas/schema": "^0.5.1",
-    "@atlas/sdk": "^0.5.1",
+    "@atlas/schema": "^0.6.0",
+    "@atlas/sdk": "^0.6.0",
     "@atlas/shared-types": "workspace:^",
     "@ionic/react": "^8.8.19",
     "es-module-shims": "^2.3.0",
+    "ionicons": "^8.1.0",
     "react": "19.2.8",
     "react-dom": "19.2.8"
   },
   "devDependencies": {
-    "@atlas/cli": "^0.5.1",
+    "@atlas/cli": "^0.6.0",
     "@tailwindcss/vite": "^4.3.3",
     "@types/node": "^22.0.0",
     "@types/react": "^19.0.0",

@@ -37,7 +37,9 @@
             "index": "src/index.html",
             "browser": "src/main.ts",
             "preserveSymlinks": false,
-            "polyfills": ["es-module-shims"],
+            "polyfills": [
+              "es-module-shims"
+            ],
             "tsConfig": "tsconfig.app.json",
             "assets": [
               {
@@ -45,7 +47,10 @@
                 "input": "public"
               }
             ],
-            "styles": ["src/tailwind.css", "src/styles.less"]
+            "styles": [
+              "src/tailwind.css",
+              "src/styles.less"
+            ]
           },
           "configurations": {
             "production": {

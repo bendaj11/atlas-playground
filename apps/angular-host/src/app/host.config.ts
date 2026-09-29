@@ -27,7 +27,11 @@ export function createCustomHostSdkOptions(
         component: WidgetModalComponent,
         componentProps: {
           widgetId,
-          inputs: options.inputs ?? {},
+          // Widgets render their own close control and call the `close` input.
+          inputs: {
+            ...options.inputs,
+            close: (data?: unknown) => void modal.dismiss(data),
+          },
         },
       });
 

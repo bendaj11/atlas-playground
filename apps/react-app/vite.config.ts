@@ -10,7 +10,7 @@ export default defineConfig(
       projectName: "react-app",
       reactMajor: 19,
       // Add app-local workspace packages here so Vite bundles and serves them locally.
-      skip: [],
+      skip: ["ionicons", "ionicons/icons"],
     }),
     {
       base: "./",

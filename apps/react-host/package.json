@@ -15,9 +15,9 @@
     "atlas:bootstrap": "atlas bootstrap react-host --skip-compile"
   },
   "dependencies": {
-    "@atlas/runtime": "^0.5.1",
-    "@atlas/schema": "^0.5.1",
-    "@atlas/sdk": "^0.5.1",
+    "@atlas/runtime": "^0.6.0",
+    "@atlas/schema": "^0.6.0",
+    "@atlas/sdk": "^0.6.0",
     "@atlas/shared-types": "workspace:^",
     "@ionic/react": "^8.8.19",
     "es-module-shims": "^2.3.0",
@@ -26,7 +26,7 @@
     "react-router-dom": "^7.9.0"
   },
   "devDependencies": {
-    "@atlas/cli": "^0.5.1",
+    "@atlas/cli": "^0.6.0",
     "@tailwindcss/vite": "^4.3.3",
     "@types/node": "^22.0.0",
     "@types/react": "^19.0.0",

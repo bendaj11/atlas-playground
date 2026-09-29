@@ -17,6 +17,7 @@ export default {
       path: "/",
       match: "full",
       redirectTo: "/angular-app",
+      nav: { label: "Angular App", visible: false },
     },
     {
       hostId: "48478785-f508-4afc-9565-28fb7648a28e",
@@ -27,6 +28,7 @@ export default {
       path: "/",
       match: "full",
       redirectTo: "/angular-app",
+      nav: { label: "Angular App", visible: false },
     },
   ],
 } satisfies AtlasAppConfig;
